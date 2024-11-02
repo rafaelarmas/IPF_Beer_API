@@ -1,0 +1,21 @@
+@IPF_Beer_API_HostAddress = http://localhost:5186
+
+POST {{IPF_Beer_API_HostAddress}}/beer
+Accept: application/json
+
+###
+
+PUT {{IPF_Beer_API_HostAddress}}/beer/{id}
+Accept: application/json
+
+###
+
+GET {{IPF_Beer_API_HostAddress}}/beer?gtAlcoholByVolume=5.0&ltAlcoholByVolume=8.0
+Accept: application/json
+
+###
+
+GET {{IPF_Beer_API_HostAddress}}/beer/{id}
+Accept: application/json
+
+###
